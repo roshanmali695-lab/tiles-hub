@@ -1,0 +1,119 @@
+{
+  "theme_and_colors": {
+    "archetype": "Swiss Minimalist / Luxury Hybrid",
+    "theme_mode": "light",
+    "backgrounds": {
+      "primary": "bg-white",
+      "secondary": "bg-stone-50",
+      "surface": "bg-white",
+      "glass": "backdrop-blur-xl bg-white/80 border-b border-stone-200"
+    },
+    "text": {
+      "primary": "text-stone-950",
+      "secondary": "text-stone-600",
+      "accent": "text-stone-900",
+      "muted": "text-stone-400"
+    },
+    "borders": {
+      "default": "border-stone-200",
+      "light": "border-stone-100",
+      "focus": "focus:ring-2 focus:ring-stone-950 focus:border-stone-950"
+    },
+    "buttons": {
+      "primary": "bg-stone-950 text-white hover:bg-stone-800 transition-colors",
+      "secondary": "bg-white text-stone-950 border border-stone-200 hover:bg-stone-50 transition-colors",
+      "accent": "bg-[#8B7355] text-white hover:bg-[#7A6548] transition-colors"
+    }
+  },
+  "typography": {
+    "headings": {
+      "font_family": "font-sans (Outfit or Manrope)",
+      "h1": "text-4xl sm:text-5xl lg:text-6xl tracking-tight font-light text-stone-950",
+      "h2": "text-2xl sm:text-3xl lg:text-4xl tracking-tight font-medium text-stone-950",
+      "h3": "text-xl sm:text-2xl tracking-tight font-medium text-stone-900"
+    },
+    "body": {
+      "font_family": "font-sans",
+      "base": "text-base leading-relaxed text-stone-600",
+      "small": "text-sm leading-relaxed text-stone-500",
+      "label": "text-xs font-semibold tracking-wider uppercase text-stone-500"
+    }
+  },
+  "layout_and_spacing": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "section": "py-16 sm:py-24",
+    "card": "p-6 sm:p-8 rounded-2xl border border-stone-200 bg-white",
+    "grid": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8",
+    "bento_grid": "grid grid-cols-1 md:grid-cols-12 gap-6",
+    "dense_grid": "grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4"
+  },
+  "components": {
+    "header": "Sticky top-0 z-50 backdrop-blur-xl bg-white/80 border-b border-stone-200. Clear navigation links, brand logo, and primary CTA.",
+    "buttons": "Subtly rounded (rounded-lg or rounded-xl) with hover transformations (scale or lift) and clear contrast.",
+    "file_upload": "Dashed border area (border-2 border-dashed border-stone-300) with hover state (border-stone-400 bg-stone-50). Include an icon and clear instructions.",
+    "workspace_layout": "A split layout for the AI Design tool: A sticky sidebar (w-80 or w-96) on desktop for controls (upload room, upload tiles, mapping), and a large main area for the image preview and visualization.",
+    "before_after_slider": "Interactive comparison component for showing original room vs AI generated room. Requires absolute positioning, object-cover for images, and a draggable slider handle.",
+    "cards": "Subtle border (border-stone-200), no heavy shadow by default, hover:shadow-lg transition-all duration-300."
+  },
+  "interactive_elements": {
+    "hover_states": "All interactable elements must have explicit hover states (e.g., hover:bg-stone-50 for secondary buttons, hover:bg-stone-800 for primary).",
+    "focus_states": "Use focus:ring-2 focus:ring-offset-2 focus:ring-stone-950 for accessibility on inputs and buttons.",
+    "data_testid": "MANDATORY. Every button, input, link, and interactive widget MUST have a descriptive kebab-case data-testid (e.g., `data-testid=\"upload-room-btn\"`)."
+  },
+  "image_urls": {
+    "rooms": [
+      {
+        "url": "https://images.unsplash.com/photo-1661107259637-4e1c55462428?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHw0fHxtb2Rlcm4lMjBlbXB0eSUyMGJhdGhyb29tfGVufDB8fHx8MTc5MTM0NDMzOXww&ixlib=rb-4.1.0&q=85",
+        "description": "Modern Empty Bathroom 1"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBlbXB0eSUyMGJhdGhyb29tfGVufDB8fHx8MTc5MTM0NDMzOXww&ixlib=rb-4.1.0&q=85",
+        "description": "Modern Empty Bathroom 2"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1630699144919-681cf308ae82?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTJ8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBlbXB0eSUyMGxpdmluZyUyMHJvb218ZW58MHx8fHwxNzkxMzQ0MzM5fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Modern Empty Living Room"
+      }
+    ],
+    "tiles": [
+      {
+        "url": "https://images.unsplash.com/photo-1551554781-c46200ea959d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODR8MHwxfHNlYXJjaHw0fHxtYXJibGUlMjB0aWxlJTIwdGV4dHVyZXxlbnwwfHx8fDE3OTEzNDQzMzl8MA&ixlib=rb-4.1.0&q=85",
+        "description": "White Marble Tile Texture"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1566305977571-5666677c6e98?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODR8MHwxfHNlYXJjaHwxfHxtYXJibGUlMjB0aWxlJTIwdGV4dHVyZXxlbnwwfHx8fDE3OTEzNDQzMzl8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Black Marble Tile Texture"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1520420253244-9ff6536abf60?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwyfHx0ZXJyYXp6byUyMHRpbGUlMjB0ZXh0dXJlfGVufDB8fHx8MTc5MTM0NDMzOXww&ixlib=rb-4.1.0&q=85",
+        "description": "Terrazzo Tile Texture"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1611072337226-1140ab367200?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNDR8MHwxfHNlYXJjaHwxfHx3b29kJTIwZmxvb3IlMjB0ZXh0dXJlfGVufDB8fHx8MTc5MTM0NDMzOXww&ixlib=rb-4.1.0&q=85",
+        "description": "Wood Floor Texture"
+      }
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Build the frontend using React, Tailwind CSS, and Shadcn UI. Modify Shadcn components to match the minimalist, premium design.",
+    "Implement the navigation bar with links: Home, AI Design, My Tiles, My Designs, Showroom, Profile.",
+    "Build a robust 'AI Design' workspace. This should include an area selector, room photo uploader, and multiple tile photo uploaders.",
+    "MOCK the AI visualization flow. When 'Generate' is clicked, show a sophisticated loading state (e.g., 'Analyzing room perspective...', 'Mapping surfaces...') and then display the Before/After slider using placeholder/mocked result images.",
+    "Implement 'My Tile Collection' as a beautiful grid/catalog view where users can see saved tiles (Image, Name, Category, Size).",
+    "Implement 'Showroom Mode' designed for professionals to demo to clients, containing tools to save, share via WhatsApp, etc.",
+    "Ensure generous spacing (p-8, p-12) and avoid cramped UIs. The app should feel like a premium interior design tool.",
+    "Do NOT use transparent backgrounds for floating elements, dropdowns, or sticky headers. Use solid or glassmorphism (backdrop-blur).",
+    "Use Lucide icons for all iconography.",
+    "All interactive elements MUST have a data-testid attribute."
+  ],
+  "universal_guidelines_for_main_agent": [
+    "Do not converge toward generic AI outputs. Create a distinctive, high-end feel using the specified typography and color palette.",
+    "Create depth through layered design elements with z-index hierarchy and soft, diffuse shadows.",
+    "Use glass-morphism effects (backdrop-blur-xl bg-white/80) where appropriate, especially headers and floating toolbars.",
+    "Do not apply universal transition (`transition: all`). Target specific properties to prevent breaking transforms.",
+    "Do not center align the root app container. Maintain natural left-aligned reading flows.",
+    "Use modern button styles (rounded-lg or rounded-full) with interaction animations (e.g., scale down on active).",
+    "Never use emoji characters for icons.",
+    "Add micro-animations for hover states on cards, buttons, and list items."
+  ]
+}
